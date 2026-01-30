@@ -100,16 +100,7 @@ Build confidence by creating useful, reliable automation used in real businesses
 
 Content breakdown:
 1. OCR agent......
-
-5. Project 1: Automated Task Reminder System
-• Google Sheets or Airtable as a data source
-• Date comparison logic
-• Notifications via email or messaging apps
-
-6. Project 2: Data Cleaning and Reporting
-• Cleaning raw data
-• Aggregation and summarization
-• Automated reporting
+2.  
 
 /// ill talk about them briefly 
 2. n8n Expressions (JavaScript Expressions)
@@ -144,6 +135,7 @@ Content breakdown:
 • Security best practices
 
 6. WhatsApp Integration Overview
+• Whatsapp nightmare (meta Developer account)
 • Why WhatsApp is difficult
 • Common problems
 
