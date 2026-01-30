@@ -1,0 +1,98 @@
+ ██████╗   ███╗   ███╗  ██╗
+██╔═══██╗  ████╗ ████║  ██║
+██║   ██║  ██╔████╔██║  ██║
+██║▄▄ ██║  ██║╚██╔╝██║  ██║
+╚██████╔╝  ██║ ╚═╝ ██║  ██║
+ ╚══▀▀═╝   ╚═╝     ╚═╝  ╚═╝
+n8n course Plan by Qata-Mohammad-Ismail
+
+Basics:
+1) AI and Automation introduction
+2) n8n, Zapier and Make Compression
+3) n8n Installation:
+    3.1) Cloud n8n version
+    3.2) n8n via Docker (Self-Hosted n8n)
+    3.3) n8n via Hostinger (Cloud VPS Using EasyPanel)
+4) Version control System (github introduction for none technical)
+5) Basic n8n Concepts
+6) Triggers and Basic Core Nodes 
+    6.1) Basic Triggers:
+        6.1.1) When clicking ‘Execute workflow’ (Manual Trigger)
+        6.1.2) Schedule Trigger
+        6.1.3) Gmail Trigger
+        6.1.4) Google Drive Trigger
+        6.1.5) Google Sheets Trigger
+        6.1.6) On form submission Trigger
+    6.2) Basic Core Nodes:
+        6.2.1) Edit Fields (Set node)
+        6.2.2) Remove Duplicates
+        6.2.3) If
+        6.2.4) Switch
+        6.2.5) Aggregate
+        6.2.6) Split Out
+        6.2.7) Filter
+        6.2.8) Summarize
+        6.2.9) Merge
+        6.2.10) Sort
+        6.2.11) Limit
+        6.2.12) Loop Over Items (SplitInBatches)
+        6.2.13) Replace Me (NoOp)
+        6.2.14) Wait
+        6.2.15) Convert to File
+        6.2.16) Extract from File
+        6.2.17) Compression
+7) 3 Basic Projects
+    7.1)......
+    7.2)......
+    7.3)......
+
+Intermediate:
+1) JSON (Java Script Object Notation) Introduction (n8n Data flow)
+2) full n8n Java Script Expressions
+3) n8n Code Node Using Java Script
+4) Error Handling in n8n 
+5) Introduction to API's    
+6) Deep Dive in Http Request Node 
+7) Introduction to WebHooks
+8) Deep Dive in WebHook Node and Respond to Webhook Node
+9) SetUp Credentials for different tools (Google Credentials, Telegram)
+10) Whatsapp Integration Nightmare
+11) Introduction to Evolution API Connecting Whatsapp for free. 
+12) 3 Intermediate Projects
+    3.1)......
+    3.2)......
+    3.3)......
+
+Advanced:
+1) Introduction to AI Core Nodes
+    1.1) Basic LLM Chain
+    1.2) Sentiment Analysis
+    1.3) Summarization Chain
+    1.4) Information Extractor
+    1.5) Text Classifier
+2) AI Agent Fundamentals
+3) Prompt Engineering Techniques
+4) AI Prompt's Writers (Costume Gemini)
+5) simple agent Example (email & Calendar Organizer)
+6) Agentic FrameWorks 
+7) Fancy AI Agent Tools
+   7.1) Http Node
+   7.2) Call n8n Workflow Tool
+   7.3) Code Tool
+   7.4) Structured Output Parser 
+8) Introduction To RAG System's 
+9) Our First Rag System 
+10) Advanced RAG Techniques
+11) Introduction to Model Context Protocol (MCP Server and MCP client)
+12) our First MCP system 
+13) 3 Advanced Projects
+    13.1)......
+    13.2)......
+    13.3)......
+14) How to Use FastApi with n8n (card management Agent)
+
+Fancy Advanced Nodes and Triggers:
+1) When Executed by Another Workflow (Trigger)
+2) Execute Workflow (Node) 
+
+
