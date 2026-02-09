@@ -1,0 +1,50 @@
+{
+    "nodes": [
+        {
+            "parameters": {},
+            "id": "c24d3f41-ef9d-4e22-80b2-998758643dae",
+            "name": "Manual Test Trigger",
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                -336,
+                800
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "// Create an array of fake tasks\nconst tasks = [\n  {\n    json: {\n      task_name: 'Complete project report',\n      priority: 'high',\n      due_date: '2026-01-15'\n    }\n  },\n  {\n    json: {\n      task_name: 'Team meeting prep',\n      priority: 'medium',\n      due_date: '2026-01-14'\n    }\n  },\n  {\n    json: {\n      task_name: 'Review budget',\n      priority: 'high',\n      due_date: '2026-01-12'\n    }\n  },\n  {\n    json: {\n      task_name: 'Update documentation',\n      priority: 'low',\n      due_date: '2026-01-20'\n    }\n  },\n  {\n    json: {\n      task_name: 'Client presentation',\n      priority: 'high',\n      due_date: '2026-01-10'\n    }\n  }\n];\n\nreturn tasks;"
+            },
+            "id": "0ae41873-78b2-4bb7-b137-640a5a2ae310",
+            "name": "Create Fake Tasks",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                -112,
+                800
+            ]
+        }
+    ],
+    "connections": {
+        "Manual Test Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Create Fake Tasks",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Create Fake Tasks": {
+            "main": [
+                []
+            ]
+        }
+    },
+    "pinData": {},
+    "meta": {
+        "instanceId": "253ebe0fa0889258745727faa7bf3014a33ccdd40ea6f441485c645eb0d410c0"
+    }
+}

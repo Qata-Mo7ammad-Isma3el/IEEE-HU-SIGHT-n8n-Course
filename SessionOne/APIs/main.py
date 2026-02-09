@@ -120,7 +120,9 @@ def sum_query_params(
     """
     return SumResponse(result=num1 + num2, method="query_parameters")
 
-
+# class SumResponse(BaseModel):
+#     result: float
+#     method: str
 # 2. REQUEST BODY
 @app.post("/sum/body", response_model=SumResponse)
 def sum_body_params(request: SumRequest = Body(...)):
