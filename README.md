@@ -142,6 +142,12 @@ This course focuses on **building real systems from the very first session**. Co
   - Building MCP Systems
 - Advanced AI-Powered Business Projects
 
+**Workflows:**
+
+- `Agentic Framework Concepts.json`
+- `Introduction to Model Context Protocol.json`
+- `Introduction to Retrieval-Augmented Generation.json`
+
 ---
 
 ## Repository Structure
@@ -174,15 +180,25 @@ IEEE-HU-SIGHT-n8n-Course/
 │   ├── Project 2 Student Performance Tracker...json
 │   ├── Setup Google Credentials.json
 │   └── WhatsApp nightmare.json
-└── SessionThree/
+├── SessionThree/
+│   ├── frontend/
+│   │   └── index.html
+│   └── Workflows/
+│       ├── AI Agent Fundamentals.json
+│       ├── AI Core Nodes Introduction.json
+│       ├── Introduction To Prompt Engineering.json
+│       ├── project-1 -Automated-resume-scoring.json
+│       └── simple agent example.json
+└── SessionFour/
+    ├── docs/
+    │   └── MCP.md
     ├── frontend/
-    │   └── index.html
+    │   ├── index.html
+    │   └── static/
     └── Workflows/
-        ├── AI Agent Fundamentals.json
-        ├── AI Core Nodes Introduction.json
-        ├── Introduction To Prompt Engineering.json
-        ├── project-1 -Automated-resume-scoring.json
-        └── simple agent example.json
+        ├── Agentic Framework Concepts.json
+        ├── Introduction to Model Context Protocol.json
+        └── Introduction to Retrieval-Augmented Generation.json
 ```
 
 ---
