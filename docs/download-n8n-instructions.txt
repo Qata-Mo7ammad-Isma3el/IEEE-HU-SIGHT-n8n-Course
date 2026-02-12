@@ -1,0 +1,28 @@
+Step 1: Click on the Images
+Step 2: Click on search images to run
+Step 3: Paste “n8nio/n8n” in the search bar and search
+Step 4: Pull the first result of the search
+Step 5: Run the downloaded image. A new dialogue box will open
+Step 6: Set a name for your container, like “n8n-demo” or any name
+Step 7: Under “Ports”, map host port 5678 to container port 5678
+Step 8: Under “Volumes”, map your n8n_data directory
+Step 9: Set Container path to /home/node/.n8n In the container
+Step 10: Under “Environment”, add the following variables:
+
+
+N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
+N8N_EDITOR_BASE_URL= <Your Own URL>
+WEBHOOK_URL=<Your Own URL>
+N8N_DEFAULT_BINARY_DATA_MODE=filesystem
+GENERIC_TIMEZONE=Asia/Amman
+NODE_FUNCTION_ALLOW_EXTERNAL=*
+DB_SQLITE_POOL_SIZE=5
+N8N_RUNNERS_ENABLED=true
+N8N_BLOCK_ENV_ACCESS_IN_NODE=false
+N8N_GIT_NODE_DISABLE_BARE_REPOS=true
+
+very Important note:
+don't forget to put your own link  
+
+to start n8n from ngrok terminal
+ngrok http --url=<Your Own URL> 5678
